@@ -324,14 +324,6 @@ Example:
 .vscode/
 .idea/
 
-# Node dependencies
-node_modules/
-
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-
 # Secrets
 *.pem
 *.key
@@ -391,10 +383,6 @@ git tag
 git tag -a v1.0.0 -m "First stable release"
 git push origin v1.0.0
 ```
-
-### Git Commands Evidence
-
-![Git Commands](screenshots/git-commands.png)
 
 ## 12. Pull Request Workflow
 
